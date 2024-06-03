@@ -1,8 +1,8 @@
 from pathlib import Path
 from re import sub
 
-from ..utils import Cmds
-from ..configs import BWA, SAMTOOLS, REF_FA
+from utils import Cmds
+from configs import BWA, SAMTOOLS, REF_FA
 
 
 class MngsFilterVirusTarget:

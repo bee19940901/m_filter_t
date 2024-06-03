@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 
 # mNGS 过滤 tNGS 靶标污染
-from tools import MngsFilterVirusTarget
+from src import MngsFilterVirusTarget
 
 
 class Pipeline:
