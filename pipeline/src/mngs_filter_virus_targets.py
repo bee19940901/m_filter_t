@@ -52,7 +52,7 @@ class MngsFilterVirusTarget:
         Cmds(
             [
                 f"{BWA} mem -T {self.T} -B {self.B} -t 8 {REF_FA} {in_file} | "
-                f"{SAMTOOLS} fasta -@ 8 -F 4 > {out_file}\n"
+                f"{SAMTOOLS} fasta  -@ 8 -F 4 > {out_file}\n"
                 for in_file, out_file
                 in zip(self.in_files, self.out_files)
             ],
